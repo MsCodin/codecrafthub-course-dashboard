@@ -1,0 +1,22 @@
+{
+  "name": "codecrafthub",
+  "version": "1.0.0",
+  "description": "Personal learning goal tracker API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "rest-api",
+    "learning-tracker",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
