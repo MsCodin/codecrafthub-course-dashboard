@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const fs = require("fs").promises;
 const path = require("path");
 
@@ -6,6 +7,7 @@ const app = express();
 const PORT = 5000;
 const DATA_FILE = path.join(__dirname, "courses.json");
 
+app.use(cors());
 app.use(express.json());
 
 // Helper: Ensure storage file exists
